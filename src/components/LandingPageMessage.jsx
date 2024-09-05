@@ -6,7 +6,7 @@ const LandingPageMessage = () => {
       <div>
         <a href="">
           <img
-            className="h-[40vh] hover:shadow-2xl rounded-full hover:shadow-neutral-600 transition-all duration-400 object-cover"
+            className="h-[40vh] hover:shadow-2xl hover:shadow-neutral-600 shadow-2xl rounded-full shadow-neutral-400 transition-all duration-400 object-cover"
             src={logoLightBg}
             alt="Vite logo"
           />
