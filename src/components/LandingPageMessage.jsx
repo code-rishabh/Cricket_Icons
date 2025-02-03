@@ -1,23 +1,21 @@
-import logoLightBg from "../assets/logo-dark-bg.jpg";
+import logo from "/cricket-icons-logo.jpg";
 
 const LandingPageMessage = () => {
   return (
-    <div className="flex flex-col m-auto items-center w-[50vw] gap-20 font-bold text-3xl text-center">
+    <div className=" h-screen flex flex-col py-10 m-auto items-center w-[50vw] gap-10 font-bold text-3xl text-center">
       <div>
         <a href="">
           <img
-            className="h-[40vh] hover:shadow-2xl hover:shadow-neutral-600 shadow-2xl rounded-full shadow-neutral-400 transition-all duration-400 object-cover"
-            src={logoLightBg}
+            className=" size-96 hover:scale-110 rounded-full transition-all duration-400 object-cover"
+            src={logo}
             alt="Vite logo"
           />
         </a>
       </div>
       <h1>
-        🌟 We are crafting something extraordinary just for you. Stay tuned as
-        we prepare to launch a world of innovation and excitement. Check back
-        soon for the grand unveiling!
+      🏏 We are Polishing Our Bat and Pads! Cricket Icons is in the final innings of development.
       </h1>
-      <h1>🚀 Coming Soon: Infinity Toytronics! </h1>
+      <h1>🏆 Get ready for the big reveal soon!</h1>
     </div>
   );
 };
