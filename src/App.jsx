@@ -7,6 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
+         
         <Route path="/app" element={<AppRedirect />} />
       </Routes>
     </BrowserRouter>
